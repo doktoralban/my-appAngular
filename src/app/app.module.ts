@@ -10,6 +10,9 @@ import { ProductsComponent } from './products/products.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { LoginformComponent } from './loginform/loginform.component';
+import { HotelinfocardsComponent } from './hotelinfocards/hotelinfocards.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { LightboxComponent } from './lightbox/lightbox.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { LoginformComponent } from './loginform/loginform.component';
     ProductsComponent,
     HomeComponent,
     PageNotFoundComponent,
-    LoginformComponent
+    LoginformComponent,
+    HotelinfocardsComponent,
+    CarouselComponent,
+    LightboxComponent
   ],
   imports: [
     BrowserModule,
