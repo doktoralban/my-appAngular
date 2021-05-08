@@ -13,6 +13,8 @@ import { LoginformComponent } from './loginform/loginform.component';
 import { HotelinfocardsComponent } from './hotelinfocards/hotelinfocards.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { LightboxComponent } from './lightbox/lightbox.component';
+import { ParallaxComponent } from './parallax/parallax.component';
+import { OurteamComponent } from './ourteam/ourteam.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { LightboxComponent } from './lightbox/lightbox.component';
     LoginformComponent,
     HotelinfocardsComponent,
     CarouselComponent,
-    LightboxComponent
+    LightboxComponent,
+    ParallaxComponent,
+    OurteamComponent
   ],
   imports: [
     BrowserModule,
