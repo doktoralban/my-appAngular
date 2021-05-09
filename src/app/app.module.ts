@@ -16,6 +16,9 @@ import { LightboxComponent } from './lightbox/lightbox.component';
 import { ParallaxComponent } from './parallax/parallax.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
 
+import { DataTablesModule } from 'angular-datatables';
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +38,8 @@ import { OurteamComponent } from './ourteam/ourteam.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    DataTablesModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
